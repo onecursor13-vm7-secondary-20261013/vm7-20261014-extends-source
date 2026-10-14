@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: vm7-20261014-extends-source-marker
+    conditions:
+      - base = main
+    actions:
+      comment:
+        message: vm7-20261014-extends-source-rule-fired
